@@ -1,0 +1,131 @@
+/* ---------------------- */
+/*   GAYA DASAR HALAMAN   */
+/* ---------------------- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* -------------------------- */
+/*     FORM INPUT BARANG      */
+/* -------------------------- */
+.form-input, .diskon-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 3px #3498db;
+}
+
+/* -------------------------- */
+/*          TOMBOL            */
+/* -------------------------- */
+button {
+    padding: 10px 18px;
+    background: #3498db;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #1f78c1;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Tombol hapus */
+.tombol-hapus {
+    background: #e74c3c;
+}
+
+.tombol-hapus:hover {
+    background: #c0392b;
+}
+
+/* Tombol reset */
+.tombol-reset {
+    background: #f39c12;
+}
+
+.tombol-reset:hover {
+    background: #d68910;
+}
+
+/* -------------------------- */
+/*       TABEL BELANJA        */
+/* -------------------------- */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f6ff;
+}
+
+tr:hover {
+    background: #e9f2ff;
+}
+
+/* -------------------------- */
+/*       TOTAL PERHITUNGAN    */
+/* -------------------------- */
+.total-box {
+    width: 90%;
+    margin: 25px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-size: 17px;
+}
+
+.total-box b {
+    font-size: 20px;
+    color: #2c3e50;
+}
